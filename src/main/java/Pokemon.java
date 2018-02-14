@@ -101,7 +101,6 @@ public class Pokemon {
         int damage2 = d6.roll();
         int damage3 = d6.roll();
         int totalDamage = damage1 + damage2 + damage3;
-
         System.out.println(this.name + " is attacking " + opponent.name);
         System.out.println(this.name + " rolls an attack bonus of " + attackBonus);
         System.out.println(opponent.name + " rolls a defense bonus of " + defenseBonus);
